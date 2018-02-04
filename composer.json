@@ -9,7 +9,8 @@
             "email": "volodymyr.vadiasov@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": ">=7.0.0",
         "laravel/framework": "5.5.*"
