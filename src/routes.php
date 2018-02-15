@@ -10,5 +10,5 @@
 Route::get('calculator', function(){
     echo 'Hello from the calculator package!';
 });
-Route::get('add/{a}/{b}', 'Vadiasov\Calculator\CalculatorController@add');
-Route::get('subtract/{a}/{b}', 'Vadiasov\Calculator\CalculatorController@subtract');
+Route::get('calc/add/{a}/{b}', 'Vadiasov\Calculator\CalculatorController@add');
+Route::get('calc/subtract/{a}/{b}', 'Vadiasov\Calculator\CalculatorController@subtract');

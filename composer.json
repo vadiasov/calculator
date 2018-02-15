@@ -1,7 +1,6 @@
 {
     "name": "vadiasov/calculator",
     "description": "Laravel 5 demo package with access with routes",
-    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -9,5 +8,10 @@
             "email": "volodymyr.vadiasov@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Vadiasov\\Calculator\\": "src"
+        }
+    },
     "require": {}
 }
